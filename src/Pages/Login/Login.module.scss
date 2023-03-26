@@ -9,9 +9,8 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 1px 5px 0 #d2d2d2;
-    padding: 7.8em 10em;
+    padding: 50px 60px 65px 60px;   
     border-radius: 20px;
-
 }
 
 .login-title {
@@ -63,7 +62,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .content{
         position: absolute;
         top: 50%;
@@ -75,7 +74,6 @@
         border-radius: 20px;
         box-shadow: none;
         padding: 50px 10px;
-        background-color: red;
     }
 
     .input-name, .input-password{
