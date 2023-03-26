@@ -5,15 +5,13 @@ const cx = classNames.bind(styles);
 
 function Login() {
     return (
-        <div className={cx('wrapper')}>
             <div className={cx('content')}>
-                 <h1 className={cx('login-title')}>Login</h1>
+                <h1 className={cx('login-title')}>Login</h1>
                 <h2 className={cx('login-description')}>Hi, welcome back!</h2>
-                <input className={cx('input-name')} type={'text'}></input>
-                <input className={cx('input-password')} type={'password'}></input>
-                <button className="btn btn-primary btn-lg">Submit</button>
+                <input className={cx('input-name')} type={'text'} placeholder="User Name"></input>
+                <input className={cx('input-password')} type={'password'}  placeholder="Password"></input>
+                <button className={cx('login-btn')}>Submit</button>
             </div>
-        </div>
     )
 }
 export default Login;
